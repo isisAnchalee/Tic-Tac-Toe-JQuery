@@ -1,0 +1,26 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.row {
+	display: block;
+}
+
+.spot {
+	float: left;
+	border: 2px solid black;
+	width: 125px;
+	height: 125px;
+}
+
+.wrapper {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
